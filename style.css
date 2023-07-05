@@ -1,0 +1,194 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: black;
+}
+
+.menu {
+    float: right;
+
+
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color:rgb(23, 55, 236);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    margin-left: 40px;
+    color: black;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: rgb(243, 5, 5);
+    width: 100%;
+    line-height: 50px;
+}
+.kolom p {
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+
+h3 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    margin-left: 60px;
+    font-weight: 500;
+}
+
+.Daftar-Photo {
+    width: 100%;
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kampus {
+    width: 20%;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.kampus p {
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(243, 5, 5);
+}
+
+#Kontak {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.footer-section {
+    width: 20%;
+    margin-left: 80px;
+}
+
+h4{
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(243, 5, 5);
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section p {
+    line-height: 30px;
+}
+.social {
+    margin-left: auto;
+    margin-top: auto;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+table {
+    margin-left: 70px;
+}
+
+table td {
+    padding: 10px;
+}
+
+button {
+    width: 50px;
+    background-color: rgb(25, 52, 206);
+    height: 30px;
+    border-radius: 7px;
+    color: white;
+}
+
+
+   
